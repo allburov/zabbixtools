@@ -12,12 +12,13 @@ Tools for Zabbix routines
 * profiles - templates for Zabbix
 * config - for config item and trigger in zabbix-agent
 
+### Usage:
+
 #### Requirements:
 * Installed Python 3.4 on Zabbix-server and Zabbix-agent
 * On zabbix-agent pip modules: requirements-agent.txt
 * On zabbix-server pip modules: requirements-server.txt
 
-### Usage:
 #### Zabbix-server
 * Change *ZABBIX_SERVER* in *ZabbixCommon.py* to your zabbix-server address
 * Copy to **/usr/lib/zabbix/zabbixtools**
