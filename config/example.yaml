@@ -1,0 +1,9 @@
+data:
+- Name : MyIdentifyName
+  VisibleName: My Visible Name
+  CustomParameter: 35
+  OtherCustomParameter: SomeText
+- Name : MyIdentifyName20
+  VisibleName: My Visible Name 2.0
+  CustomParameter: 3500
+  OtherCustomParameter: SomeTextAndOk
