@@ -12,6 +12,8 @@ Tools for Zabbix routines
 * profiles - templates for Zabbix
 * config - for config item and trigger in zabbix-agent
 
+------
+
 ### Usage:
 
 #### Requirements:
@@ -35,3 +37,16 @@ Tools for Zabbix routines
 * Copy this directory to **/srv/ZBX/zabbixtools**
 * Add **Include=/srv/ZBX/zabbixtools/zabbix_agentdNIX.conf** to zabbix configuration file
 * Restart Zabbix-Agent service
+
+------
+
+### List of UserParameters
+#### Windows
+* __zabbixtools.discovery[*]__ - Get Discovery Rules-json from YAML-file in **./config** folder.
+* __CheckSwap__ - check that swap is disabled in server
+* __CheckDiskExistAndWrite[*]__ - Check disk exist and writable [Usable with Discovery Rules]
+* __GetFolderSize[*]__ - Get folder size [Usable with Discovery Rules]
+
+
+#### Linux
+* __zabbixtools.discovery[*]__ - Get Discovery Rules-json from YAML-file in **./config** folder.
